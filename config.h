@@ -4,7 +4,7 @@ static const char *group = "wheel";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#111111",     /* after initialization */
-	[INPUT] =  "#333333",   /* during input */
+	[INPUT] =  "#195e45",   /* during input */
 	[FAILED] = "#170000",   /* wrong password */
 };
 
@@ -17,17 +17,20 @@ static const int logosize = 75;
 static const int logow = 12;
 static const int logoh = 6;
 
-static XRectangle rectangles[9] = {
+static XRectangle rectangles[13] = {
 	/* x    y       w       h */
-	{ 0,    3,      1,      3 },
-	{ 1,    3,      2,      1 },
-	{ 0,    5,      8,      1 },
-	{ 3,    0,      1,      5 },
-	{ 5,    3,      1,      2 },
-	{ 7,    3,      1,      2 },
-	{ 8,    3,      4,      1 },
-	{ 9,    4,      1,      2 },
-	{ 11,   4,      1,      2 },
+	{  0,   1,      4,      1 },
+	{  0,   3,      4,      1 },
+	{  0,   5,      4,      1 },
+	{  0,   1,      1,      5 },
+	{  3,   1,      1,      5 },
+	{  0,   5,      7,      1 },
+	{  6,   1,      7,      1 },
+	{  6,   2,      1,      3 },
+	{  9,   2,      1,      4 },
+	{  9,   5,      4,      1 },
+	{  12,  3,      1,      2 },
+	{  11,  3,      1,      1 },
 };
 
 /*Enable blur*/
